@@ -22,6 +22,10 @@ public class Taller {
         objA.ingresarDatos();
 
         objA.mostrarDatos();
+        
+        
+        objA.ingresarNombre();
+        objA.mostrarDatos();
     }
 
 }

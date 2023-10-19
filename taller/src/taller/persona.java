@@ -5,10 +5,21 @@
  */
 package taller;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Yancarlos
  */
 public class persona {
     
+    String nombre;
+    
+    public void ingresarNombre(){
+        nombre = JOptionPane.showInputDialog("ingresa el nombre");
+    }
+            
+     public void mostrarDatos(){
+         JOptionPane.showMessageDialog(null, "el nombre es " + nombre);
+     }   
 }
